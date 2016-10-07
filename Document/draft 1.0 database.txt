@@ -1,0 +1,11 @@
+route_comments - id, creator_mobile_serial_number, text, creation_time, route_id, points, flagged (flagged for moderator to see)
+
+user - id, mobile_serial_number, user_status (member, admin, moderator, banned)
+
+user_saved_routes - user_id, route_id, time, creation_time
+
+user_profile - user_id, points, icon, saved_routes
+
+routes - id, longitud_to_start, latitud_to_start, creation_time, route_list, points, title, route_creator_id, difficulty, flagged (flagged for moderator to see)
+
+route_hotspots - longitud,latitud, name, image, text
